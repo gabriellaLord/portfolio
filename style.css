@@ -25,3 +25,26 @@ body {
     border-radius: 50%;
     width: 150px;
   }
+
+  button {
+    /* Remove button styling */
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    /* Optional: keep it centered */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button img {
+    border-radius: 50%;
+    width: 150px;
+    display: block;
+  }
+
+  /* Hover effect */
+  button img:hover {
+    box-shadow: 0 0 16px rgba(95, 0, 204, 0.4);
+    transform: scale(1.08);
+  }
