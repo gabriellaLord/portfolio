@@ -49,6 +49,11 @@ body {
     transform: scale(1.08);
   }
 
+  button:focus, a:focus {
+    outline: 2px solid #5f00cc;
+    outline-offset: 2px;
+  }
+
   /* Responsive styles for screens 600px wide and smaller */
   @media (max-width: 600px) {
   h1 {
