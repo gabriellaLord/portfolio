@@ -48,3 +48,20 @@ body {
     box-shadow: 0 0 16px rgba(95, 0, 204, 0.4);
     transform: scale(1.08);
   }
+
+  /* Responsive styles for screens 600px wide and smaller */
+  @media (max-width: 600px) {
+  h1 {
+    font-size: 1.7em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  p {
+    font-size: 1em;
+    padding: 0 10px;
+  }
+  button img {
+    width: 100px;
+  }
+}
